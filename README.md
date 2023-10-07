@@ -1,4 +1,4 @@
-## Homework Express.JS & Database Integration
+# Homework Express.JS & Database Integration
 Buatlah sebuah aplikasi Express JS yang dapat menampilkan data text pada halaman web 
 yang didapatkan dari sampel data [ini](https://github.com/fathy17/rakamin-expressjs/blob/master/dvdrental.tar) dan schema [di sini](https://github.com/fathy17/rakamin-expressjs/blob/master/printable-postgresql-sample-database-diagram.pdf) sebagai referensi.
 
