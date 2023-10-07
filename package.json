@@ -1,0 +1,23 @@
+{
+  "name": "homework-expressjs",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "start": "nodemon src/app.js",
+    "migrate": "node src/db/migrations/migrations.js",
+    "seed": "node src/db/seeds/seed.js"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "db-migrate": "^0.11.14",
+    "db-migrate-pg": "^1.5.2",
+    "dotenv": "^16.3.1",
+    "express": "^4.18.2",
+    "faker": "^5.5.3",
+    "nodemon": "^3.0.1",
+    "pg": "^8.11.3"
+  }
+}
