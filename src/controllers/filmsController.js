@@ -17,7 +17,7 @@ const getFilmById = async (req, res) => {
   try {
     const film = await filmsModel.getFilmById(filmId);
 
-    if (!film) {
+    if (film.length === 0) {
       return res.status(404).json({ error: 'Film Not Found'});
     }
 
