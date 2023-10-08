@@ -3,7 +3,7 @@ const pool = require('../config/database');
 const getAllFilms = async () => {
   const client = await pool.connect();
   try {
-    const result = await client.query('SELECT * FROM film');
+    const result = await client.query('SELECT * FROM film ORDER BY film_id');
     return result.rows;
   } finally {
     client.release();
